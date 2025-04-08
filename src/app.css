@@ -1,1 +1,79 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+/* General Styles */
+.click-button {
+    @apply bg-transparent hover:bg-blue-900 text-blue-300 font-semibold hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded;
+}
+
+.nav-link {
+    @apply bg-transparent inline-block border-l border-t border-r rounded-t py-2 px-10 text-blue-300 font-semibold;
+}
+
+.nav-active {
+    @apply bg-blue-950 text-blue-50 border-blue-300;
+}
+
+/* Planet Card Styles */
+.planet-card {
+    @apply bg-slate-800 text-slate-200;
+}
+
+.planet-image {
+    @apply h-24 w-24 rounded-full border border-blue-300;
+}
+
+.planet-name {
+    @apply text-lg font-bold text-blue-300;
+}
+
+.planet-description {
+    @apply text-sm text-gray-400;
+}
+
+.planet-distance,
+.planet-rate,
+.planet-resources,
+.planet-explored {
+    @apply text-sm font-medium;
+}
+
+/* Updated Explore and Mine Colors */
+.planet-explored {
+    @apply font-medium;
+}
+
+.planet-explored[data-ready="mine"] {
+    @apply text-green-500; /* Green for "Ready to Mine" */
+}
+
+.planet-explored[data-ready="explore"] {
+    @apply text-orange-500; /* Orange for "Ready to Explore" */
+}
+
+/* Home Planet Highlight */
+.planet-name span {
+    @apply text-green-400 font-bold;
+}
+
+/* Scoreboard Styles */
+.scoreboard {
+    @apply bg-blue-950 text-blue-50 border border-blue-300 rounded-lg shadow-md p-4;
+}
+
+.mineral-count,
+.mineral-multiplier {
+    @apply text-center;
+}
+
+/* Spaceship Styles */
+.spaceship-card {
+    @apply bg-slate-800 text-slate-200 border border-blue-300 rounded-lg shadow-md p-4;
+}
+
+.spaceship-card h2 {
+    @apply text-lg font-bold;
+}
+
+.spaceship-card button {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded mt-2;
+}
