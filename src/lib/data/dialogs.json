@@ -1,0 +1,47 @@
+[
+    {
+        "id": "welcome",
+        "characterImage": "https://picsum.photos/150?random=character1",
+        "dialogText": "Welcome to Space Game! Your journey begins here.",
+        "proceedMessage": "(Click to proceed)",
+        "manualTrigger": false,
+        "show": true,
+        "nextLine": "manualMine"
+    },
+    {
+        "id": "manualMine",
+        "characterImage": "https://picsum.photos/150?random=character2",
+        "dialogText": "Click Mine (Manual) to gather resources.",
+        "proceedMessage": "(Click Mine to proceed)",
+        "manualTrigger": true,
+        "show": true,
+        "nextLine": "unlockSpaceship"
+    },
+    {
+        "id": "unlockSpaceship",
+        "characterImage": "https://picsum.photos/150?random=spaceship",
+        "dialogText": "Gather 20 Minerals to unlock the spaceship.",
+        "proceedMessage": "(Click to proceed)",
+        "manualTrigger": true,
+        "show": true,
+        "nextLine": "discoverPlanet"
+    },
+    {
+        "id": "discoverPlanet",
+        "characterImage": "https://picsum.photos/150?random=planet",
+        "dialogText": "Use your spaceship to discover new planets.",
+        "proceedMessage": "(Click to proceed)",
+        "manualTrigger": true,
+        "show": true,
+        "nextLine": "searching"
+    },
+    {
+        "id": "searching",
+        "characterImage": "https://picsum.photos/150?random=character4",
+        "dialogText": "You are now searching for new planets. Good luck!",
+        "proceedMessage": "(Click to end)",
+        "manualTrigger": false,
+        "show": true,
+        "nextLine": null
+    }
+]

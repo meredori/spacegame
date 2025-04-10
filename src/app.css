@@ -5,6 +5,10 @@
     @apply bg-transparent hover:bg-blue-900 text-blue-300 font-semibold hover:text-white py-2 px-4 border border-blue-300 hover:border-transparent rounded;
 }
 
+.click-button:disabled {
+    @apply bg-gray-700 text-gray-400 border-gray-500 cursor-not-allowed;
+}
+
 .nav-link {
     @apply bg-transparent inline-block border-l border-t border-r rounded-t py-2 px-10 text-blue-300 font-semibold;
 }

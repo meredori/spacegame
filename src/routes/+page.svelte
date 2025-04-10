@@ -1,7 +1,7 @@
 <script>
-    import Scoreboard from "$lib/components/Scoreboard.svelte";
-    import Spaceship from "$lib/components/Spaceship.svelte";
-    import Planet from "$lib/components/Planet.svelte";
+    import Scoreboard from "$lib/components/Scoreboard/Scoreboard.svelte";
+    import Spaceship from "$lib/components/Spaceship/Spaceship.svelte";
+    import Planet from "$lib/components/Planets/PlanetCard.svelte";
     import { planets } from "$lib/stores/planet.js"; // Use the planets store
 </script>
 

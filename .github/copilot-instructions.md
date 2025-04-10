@@ -1,0 +1,1 @@
+Always use svelte5 as the front-end framework.
